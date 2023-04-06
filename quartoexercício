@@ -1,0 +1,12 @@
+Vogais = ['a', 'e', 'i', 'o','u']
+Letras = [ "b", "c", "a", "e", "d", "z", "y", "v", "x","k" ]
+Consoantesone = []
+consoantes = 0
+contador = 0
+for i in Letras:
+    if not Letras[contador] in Vogais:
+        consoantes+= 1 
+        Consoantesone.append(Letras[contador])
+    contador += 1 
+    print("Consoantes:", Consoantesone)
+    print("Quais consoantes:", consoantes)
